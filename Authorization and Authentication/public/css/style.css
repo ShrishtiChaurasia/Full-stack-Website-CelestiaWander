@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(215, 212, 218);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-expand-md .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensures the child elements take the full width */
+}
+#all-listcards{
+    border: none !important;
+    color: black !important;
+    border-radius: 1.5rem !important;
+    margin: 0.5rem !important;
+}
+.all-listcards{
+    overflow: hidden !important;
+    border-radius: 1.5rem !important;
+    margin-bottom: 15px !important;
+    margin-left: 15px !important;
+    color: black !important;
+}
+.all-listcards:hover{
+    box-shadow: 0 -0.5rem 1rem rgba(0 0 0 / 0.15) !important;
+}
+#listing-card{
+    border-radius: 1.5rem !important;
+    overflow: hidden !important;
+}
+#listing-card:hover{
+    box-shadow: 0 -0.5rem 1rem rgba(45, 36, 132, 0.15) !important;
+}
+nav{
+    border-bottom: 1px solid black;
+}
+.listing-link{
+    text-decoration: none !important;
+}
+.card-img-top{
+    opacity: 1;
+    height: 15rem !important;
+    border-radius: 1.5rem !important;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: antiquewhite;
+}
+.display-card{
+    border-radius: 1rem !important;
+}
+#reviews{
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+    width: 20rem !important;
+    border: 1px solid rgb(164, 150, 150) !important;
+    box-shadow: 0 -0.5rem 1rem rgba(0 0 0 / 0.15) !important;
+  overflow: hidden !important;
+  border-radius: 28px !important;
+}
+#reviews:hover{
+    border: 1px solid rgb(50, 47, 47) !important;
+}
+#reviews-body p{
+    margin: 0.5rem 1rem 0 0.5rem !important;
+}
+#reviews-body h5{
+    margin: 0.2rem 0.5rem 0.5rem 0 !important;
+}
+#reviews-btn{
+    margin: 0 0 0 15px !important;
+}
